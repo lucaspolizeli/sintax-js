@@ -14,7 +14,7 @@ class EntityBase {
     return `${preffix} ${this.#name}`;
   }
 
-  get birthDay() {
+  get birthYear() {
     if (!this.#age) {
       throw new Error("You must define age first!");
     }
